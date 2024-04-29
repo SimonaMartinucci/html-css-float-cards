@@ -30,16 +30,16 @@ header h1 {
 
 /* regole parte principale */
 .row {
-    margin-top: 30px;
-    /* width: calc(100% / 3); */
-    /* height: 200px; */
-    /* background-color: blueviolet; */
+    margin-top: 30px;   
 }
 
 .col {
     float: left;
-    width: calc(100% / 3);
+    width: calc((100% / 3) - 20px);
     background-color: black;
-    height: 100px;
-    margin-bottom: 30px;
+    margin: 30px 10px;
+    box-shadow: 0 0 8px grey;
+    /* DEBUG */
+    height: 80px;
+    
 }
