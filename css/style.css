@@ -1,3 +1,4 @@
+/* regole generali */
 * {
     margin: 0;
     padding: 0;
@@ -14,8 +15,31 @@
     text-align: center;
 }
 
+#container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* regole header */
 header h1 {
     color: rgb(229, 49, 112);
     font-size: 35px;
     margin-bottom: 40px;
+}
+
+/* regole parte principale */
+.row {
+    margin-top: 30px;
+    /* width: calc(100% / 3); */
+    /* height: 200px; */
+    /* background-color: blueviolet; */
+}
+
+.col {
+    float: left;
+    width: calc(100% / 3);
+    background-color: black;
+    height: 100px;
+    margin-bottom: 30px;
 }
