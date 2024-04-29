@@ -30,16 +30,46 @@ header h1 {
 
 /* regole parte principale */
 .row {
-    margin-top: 30px;   
+    margin-top: 20px;   
 }
 
 .col {
     float: left;
     width: calc((100% / 3) - 20px);
-    background-color: black;
+    background-color: rgb(15, 14, 23);
     margin: 30px 10px;
     box-shadow: 0 0 8px grey;
     /* DEBUG */
-    height: 80px;
-    
+    /* height: 80px;    */
+}
+
+div.col img {
+    width: 30%;
+    height: auto;
+    margin: 0 auto;
+    float: left;
+    margin-right: 15px;
+}
+
+div.col div {
+    background-color: rgb(15, 14, 23);
+    text-align: left;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.name {
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+}
+
+.job {
+    font-size: 13px;
+    color: white;
+}
+
+.email {
+    font-size: 12px;
+    color: rgb(112, 203, 227);
 }
