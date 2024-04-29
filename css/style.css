@@ -39,8 +39,6 @@ header h1 {
     background-color: rgb(15, 14, 23);
     margin: 30px 10px 10px;
     box-shadow: 0 0 8px grey;
-    /* DEBUG */
-    /* height: 80px;    */
 }
 
 div.col img {
