@@ -7,14 +7,15 @@
 }
 
 #container {
-    width: 80%;
+    width: 60%;
     height: auto;
     margin: 0 auto;
-    padding-top: 40px;
+    padding-top: 30px;
     text-align: center;
 }
 
 header h1 {
     color: rgb(229, 49, 112);
     font-size: 35px;
+    margin-bottom: 40px;
 }
